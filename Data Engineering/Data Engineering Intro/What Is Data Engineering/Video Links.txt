@@ -1,0 +1,8 @@
+What Is Data Fabric?
+https://www.youtube.com/embed/vQInSPTz7KY
+
+Introducing Talend Data Fabric
+https://www.youtube.com/embed/Sx0-AaERDOc
+
+What Is A Data Pipeline?
+https://www.youtube.com/watch?v=VtzvF17ysbc&list=PLODhYFOO9ZoGjItSfNtYPfTGNOq0VyOBb&index=3&ab_channel=ITkFunde
