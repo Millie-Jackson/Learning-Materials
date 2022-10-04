@@ -1,0 +1,22 @@
+Bookstore:
+  - dates_visited:
+    todays_date: 20221004 
+    my_birthday: 19890519
+    millenium: 20001231
+  - user_id:
+    this_UUID: 8a3150fb-cc7e-4681-8531-f94453baa8ea
+    that_UUID: 98907fd9-ab45-4ad8-ace6-dcd9eb4c9c1b
+    another_UUID: c3031a85-8c96-46cf-b748-840f3be8b873
+  - basket:
+    book1: LotR1
+      price: 2.50
+      id: cb1cb468-2062-4ee7-85d5-63724c22eba6
+      name: The Fellowship Of The Ring
+    book2: LotR2
+      price: 3.75
+      id: 4f4b10e9-16d6-495f-a198-0ec35b8b51aa
+      name: The Two Towers
+    book3: LotR3
+      price: 4.25
+      id: 4f4b10e9-16d6-495f-a198-0ec35b8b51aa
+      name: Return Of The King
