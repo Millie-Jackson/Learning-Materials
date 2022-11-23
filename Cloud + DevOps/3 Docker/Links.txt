@@ -1,0 +1,20 @@
+Docker Essentials
+https://colab.research.google.com/github/AI-Core/Content-Public/blob/main/units/Cloud-and-DevOps/2.%20Docker/1.%20Docker%20Essentials/Notebook.ipynb#scrollTo=Xu3RUiq4PJgW
+
+Intro To Docker
+https://colab.research.google.com/github/AI-Core/Content-Public/blob/main/units/Cloud-and-DevOps/2.%20Docker/0.%20What%20is%20Docker%3F/Notebook.ipynb
+
+The Essentials Of Docker
+https://www.youtube.com/watch?v=dFEgUi7-G4A&ab_channel=AiCore
+
+Containerizing Your Selenium Application With Docker 
+https://www.youtube.com/watch?v=56yNT2jNjFo&ab_channel=AiCore
+
+Making Chromedriver and Chrome Versions Match In A Docker Image
+https://gerg.dev/2021/06/making-chromedriver-and-chrome-versions-match-in-a-docker-image/
+
+Docker Volumes
+https://www.youtube.com/watch?v=1_GBQD2EZ1Q&feature=emb_imp_woyt&ab_channel=AiCore
+
+Docker Compose in 9 mins
+https://www.youtube.com/watch?v=NYmlRE7jLco&ab_channel=AiCore
