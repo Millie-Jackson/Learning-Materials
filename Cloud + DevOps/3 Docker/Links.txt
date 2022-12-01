@@ -4,8 +4,23 @@ https://colab.research.google.com/github/AI-Core/Content-Public/blob/main/units/
 Intro To Docker
 https://colab.research.google.com/github/AI-Core/Content-Public/blob/main/units/Cloud-and-DevOps/2.%20Docker/0.%20What%20is%20Docker%3F/Notebook.ipynb
 
+Containers? So What? Docker 101 Explained
+https://www.youtube.com/watch?v=0oEsMwSxBsk&ab_channel=ScottHanselman
+
+What Is Docker? Why It's Popular
+https://www.youtube.com/watch?v=IbUXb4pQbPY&ab_channel=TechLead
+
+Containerization Explained
+https://www.youtube.com/watch?v=0qotVMX-J5s&ab_channel=IBMTechnology
+
 The Essentials Of Docker
 https://www.youtube.com/watch?v=dFEgUi7-G4A&ab_channel=AiCore
+
+Containers VS Virtual Machines
+https://www.youtube.com/watch?v=cjXI-yxqGTI&ab_channel=IBMTechnology
+
+Running a Docker Container on EC2
+https://www.youtube.com/watch?v=M1xSPTUqJaE&ab_channel=AiCore
 
 Containerizing Your Selenium Application With Docker 
 https://www.youtube.com/watch?v=56yNT2jNjFo&ab_channel=AiCore
@@ -18,3 +33,9 @@ https://www.youtube.com/watch?v=1_GBQD2EZ1Q&feature=emb_imp_woyt&ab_channel=AiCo
 
 Docker Compose in 9 mins
 https://www.youtube.com/watch?v=NYmlRE7jLco&ab_channel=AiCore
+
+Container Orchestation Explained
+https://www.youtube.com/watch?v=kBF6Bvth0zw&ab_channel=IBMTechnology
+
+Container Security Explained
+https://www.youtube.com/watch?v=b_euX_M82uI&ab_channel=IBMTechnology
