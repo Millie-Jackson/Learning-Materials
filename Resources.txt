@@ -33,3 +33,6 @@ https://www.youtube.com/watch?v=ZOwgNA_zKnE&ab_channel=AndySterkowitz
 https://www.youtube.com/@cs50/search?query=machine%20learning
 https://www.youtube.com/@Pepcoding/search?query=machine%20learning
 https://www.youtube.com/@TechWithTim/search?query=machine%20learning
+
+TUTORIALS
+https://www.youtube.com/watch?v=ujTCoH21GlA&list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr&ab_channel=TechWithTim
