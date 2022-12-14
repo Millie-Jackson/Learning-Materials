@@ -1,0 +1,38 @@
+# Images
+alias di="docker image" # General for docker images
+
+alias dib="docker image build" # Build docker image
+alias dil="docker image ls" # List docker images (check --help)
+alias dip="docker image push" # Push NAME image
+alias dirm="docker image rm" # Remove NAME image
+alias dirmall="docker image prune -a" # Remove all images not used by containers
+
+# Containers
+alias dc="docker container" # General for docker containers
+
+alias dcr="docker container run" # Run container from an IMAGE image
+alias dccp="docker container cp" # Copy data from src to dst inside container
+alias dce="docker container exec" # Execute COMMAND inside container
+alias dci="docker container inspect" # Inspect container
+alias dck="docker container kill"  # Kill container
+alias dcl="docker container ls" # List all available containers
+alias dcs="docker container stop" # Stop running container
+
+alias dcrma='docker ps -a -q | xargs sudo docker rm' # Remove all non-running containers
+
+# Volumes
+alias dv="docker volume" # General volume command
+
+alias dvc="docker volume create" # Create NAMED volume
+alias dvl="docker volume ls" # List all available volumes
+alias dvrm="docker volume rm" # Remove volumes
+
+# List files inside the created volume
+dvi(){
+  docker run --rm -i -v="$1":/tmp/myvolume busybox find /tmp/myvolume
+}
+
+# System
+alias dsi="docker system info" # Display system-wide information
+alias dsdf="docker system df" # How much images & containers take in terms of space
+alias dsp="docker system prune" # Remove every unused image/containerj

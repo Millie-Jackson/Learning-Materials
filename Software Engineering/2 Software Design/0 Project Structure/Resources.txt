@@ -1,0 +1,14 @@
+Documentaion Helper
+https://www.sphinx-doc.org/en/master/
+
+Configuring setuptools Using setup.cfg Files
+https://setuptools.pypa.io/en/latest/userguide/declarative_config.html
+
+Pipenv: Python Dev Workflow for Humans
+https://pipenv.pypa.io/en/latest/
+
+Package Python Projects
+https://packaging.python.org/en/latest/tutorials/packaging-projects/#packaging-python-projects
+
+Make A README
+https://www.makeareadme.com/
