@@ -16,6 +16,11 @@ https://www.youtube.com/watch?v=KEeBH-36qJU&feature=emb_imp_woyt&ab_channel=Harr
 Command Line Basics Recap
 https://www.youtube.com/watch?v=3fmMe3mlutw&feature=emb_imp_woyt&ab_channel=HarryBerg
 
+Manipulating Files Using the Terminal
+https://www.youtube.com/watch?v=NlT15FFIyqE&feature=youtu.be&ab_channel=AiCore
+
+A Deeper Understanding of The Command Line
+https://www.youtube.com/watch?v=kakE6Ec_NVA&ab_channel=AiCore
 
 Package Managers
 https://www.youtube.com/watch?v=25mhpVRk0GA&ab_channel=HarryBerg
