@@ -1,13 +1,5 @@
-from setuptools import setup
-from setuptools import find_packages
+# Describes the metadata of your project as well as the packages that need to be installed to run your script. 
+# As opposed to requirements.txt, setup.py indicates that your project has likely been packaged and distributed with Distutils, which is the standard for distributing Python modules.
 
-setup(
-    name='celebrity_births_test', #This will be the name your package will be published with
-    version='0.0.1',
-    description='Mock package that allows you to find a celebrty by date of birth',
-    url='https://github.com/IvanYingX/project_structure-pypi.git', # Add the URL of your github repo if published
-    author='Ivan Ying', # Your name
-    license='MIT',
-    packages=find_packages(),
-    install_requires=['requests', 'beautifulsoup4'] # All external libraries
-)
+# This indicates that our package(s) is likely to be distributed using setuptools or Distutils. 
+# In presence of this file, using pip install . will look for the packages in the directory and will add them to your Python Path the same way you install any other library.

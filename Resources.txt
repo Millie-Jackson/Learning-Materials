@@ -13,11 +13,20 @@ https://www.youtube.com/@GianlucaMauro
 MyCodeSchool
 https://www.youtube.com/@mycodeschool
 
+Nick White
+https://www.youtube.com/@NickWhite/videos
+
 PepCoding
 https://www.youtube.com/@Pepcoding
 
+Power Couple
+https://www.youtube.com/@Power_Couple/videos
+
 Scott Hanselman
 https://www.youtube.com/@shanselman
+
+Steve Brunton
+https://www.youtube.com/@Eigensteve/videos
 
 TechLead
 https://www.youtube.com/@TechLead
@@ -31,8 +40,19 @@ TO MOOCH THROUGH
 https://www.youtube.com/watch?v=MxyszRi-a5c&list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X&ab_channel=GianlucaMauro
 https://www.youtube.com/watch?v=ZOwgNA_zKnE&ab_channel=AndySterkowitz
 https://www.youtube.com/@cs50/search?query=machine%20learning
+https://www.youtube.com/@Eigensteve/search?query=machine%20learning
 https://www.youtube.com/@Pepcoding/search?query=machine%20learning
+https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&ab_channel=StatQuestwithJoshStarmer
 https://www.youtube.com/@TechWithTim/search?query=machine%20learning
+https://www.youtube.com/watch?v=f7dhOHMX0js&ab_channel=TEDxTalks
+https://www.youtube.com/watch?v=fSytzGwwBVw&ab_channel=StatQuestwithJoshStarmer
+https://www.youtube.com/watch?v=K-8F_zDMDUI&ab_channel=SteveBrunton
 
 TUTORIALS
+https://www.youtube.com/watch?v=WFr2WgN9_xE&ab_channel=TechWithTim
 https://www.youtube.com/watch?v=ujTCoH21GlA&list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr&ab_channel=TechWithTim
+https://www.youtube.com/watch?v=ukzFI9rgwfU&list=PLEiEAq2VkUUI73199L-Aym2MnKjBxJ-4X&ab_channel=Simplilearn
+https://www.youtube.com/watch?v=OS0Ddkle0o4&list=PLzMcBGfZo4-lak7tiFDec5_ZMItiIIfmj&ab_channel=TechWithTim
+https://www.youtube.com/watch?v=BOhgGA7Eu5E&ab_channel=TechWithTim
+https://www.youtube.com/watch?v=MMxFDaIOHsE&list=PLzMcBGfZo4-lwGZWXz5Qgta_YNX3_vLS2&ab_channel=TechWithTim
+https://www.youtube.com/watch?v=WFr2WgN9_xE&t=109s&ab_channel=TechWithTim

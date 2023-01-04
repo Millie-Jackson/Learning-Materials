@@ -1,0 +1,2 @@
+# The same way the main module of the project has been divided into modules, tests can be also divided to give a greater level of granularity. 
+# Add one test per module, and another test for integration testing

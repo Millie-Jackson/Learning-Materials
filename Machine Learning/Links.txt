@@ -1,2 +1,43 @@
+A Gentle Introduction To Machine Learning
+https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=2&ab_channel=StatQuestwithJoshStarmer
+
 5 Things You Need To Know About Machine Learning
 https://www.youtube.com/watch?v=-schnj2hgt4&ab_channel=AiCore
+
+What Is Machine Learning?
+https://www.youtube.com/watch?v=nAVYZ0A98Z4&ab_channel=AiCore
+
+What Is ML Engineering
+https://www.youtube.com/watch?v=9_IcVBXDZe8&list=PLQuVqKqF3P6pS95G7_M4T7q3OpwJ-66Yk&index=4&ab_channel=AiCore
+
+What Is A Model In Machine Learning?
+https://www.youtube.com/watch?v=uOmn1w4-aOo&ab_channel=AiCore
+
+Machine Learning Goals
+https://www.youtube.com/watch?v=ofM8LE9Zeaw&ab_channel=SteveBrunton
+
+The Different Types Of Machine Learning Explained
+https://www.youtube.com/watch?v=KyGFVrcuMZM&ab_channel=TechWithTim
+----------------------------------------------------------------------------
+Machine Learning VS Deep Learning
+https://www.youtube.com/watch?v=q6kJ71tEYqM&ab_channel=IBMTechnology
+
+Supervised VS Unsupervised Learning
+https://www.youtube.com/watch?v=W01tIRP_Rqs&ab_channel=IBMTechnology
+
+Types Of Machine Learning 1
+https://www.youtube.com/watch?v=YlGEQyEM_a8&ab_channel=SteveBrunton
+
+Types Of Machine Learning 2
+https://www.youtube.com/watch?v=0_lKUPYEYyY&ab_channel=SteveBrunton
+----------------------------------------------------------------------------
+Data For Machine Learning
+https://www.youtube.com/watch?v=JlKVVGA8RtE&ab_channel=AiCore
+----------------------------------------------------------------------------
+Machine Learning And Cross-Validation
+https://www.youtube.com/watch?v=CBHaInynRzU&ab_channel=SteveBrunton
+----------------------------------------------------------------------------
+COMPUTER VISION
+
+Build Your Own Computer Vision Application With Google Teachable Machine
+https://www.youtube.com/watch?v=Ux3ZHUG7CXE&list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X&index=4&ab_channel=GianlucaMauro

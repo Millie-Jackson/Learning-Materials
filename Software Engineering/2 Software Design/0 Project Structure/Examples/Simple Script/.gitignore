@@ -1,0 +1,1 @@
+# If you don't want to keep track of certain files, for example those that are note relevant for other users such as __pycache__ or .DS_Store, or your personal virtual environment if you created it in your repo, you can add these in .gitignore as plain text.
