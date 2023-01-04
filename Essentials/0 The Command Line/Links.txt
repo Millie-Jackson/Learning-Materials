@@ -1,0 +1,26 @@
+What Is The Command Line?
+https://www.youtube.com/watch?v=yKjL0l80jmE&feature=emb_imp_woyt&ab_channel=HarryBerg
+
+Running Terminal Commands
+https://www.youtube.com/watch?v=iaHNAs8-gyY&ab_channel=HarryBerg
+
+The In-Portal Terminal
+https://www.youtube.com/watch?v=4VTPDq9FZd4&ab_channel=HarryBerg
+
+Editing Files With Nano
+https://www.youtube.com/watch?v=qhDiSQ0F2X4&ab_channel=HarryBerg
+
+Running Python Files From The Terminal
+https://www.youtube.com/watch?v=KEeBH-36qJU&feature=emb_imp_woyt&ab_channel=HarryBerg
+
+Command Line Basics Recap
+https://www.youtube.com/watch?v=3fmMe3mlutw&feature=emb_imp_woyt&ab_channel=HarryBerg
+
+Manipulating Files Using the Terminal
+https://www.youtube.com/watch?v=NlT15FFIyqE&feature=youtu.be&ab_channel=AiCore
+
+A Deeper Understanding of The Command Line
+https://www.youtube.com/watch?v=kakE6Ec_NVA&ab_channel=AiCore
+
+Package Managers
+https://www.youtube.com/watch?v=25mhpVRk0GA&ab_channel=HarryBerg
