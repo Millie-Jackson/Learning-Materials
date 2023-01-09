@@ -1,3 +1,6 @@
+AI At Work: How Does An AI Project Look Like?
+https://www.youtube.com/watch?v=GoClxmxt1HQ&list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X&index=14&ab_channel=GianlucaMauro
+
 A Gentle Introduction To Machine Learning
 https://www.youtube.com/watch?v=Gv9_4yMHFhI&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF&index=2&ab_channel=StatQuestwithJoshStarmer
 
@@ -41,3 +44,30 @@ COMPUTER VISION
 
 Build Your Own Computer Vision Application With Google Teachable Machine
 https://www.youtube.com/watch?v=Ux3ZHUG7CXE&list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X&index=4&ab_channel=GianlucaMauro
+
+Computer Vision Applications: Today + Tomorrow
+https://youtu.be/5s9dRpmxOJY?list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X
+
+Computer Vission In Everyday Life: Apple Face ID
+https://www.youtube.com/watch?v=jlAFET3bJPA&list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X&index=6&ab_channel=GianlucaMauro
+----------------------------------------------------------------------------
+NATUAL LANGUAGE PROCESSING
+
+Teaching Computers To Speak
+https://youtu.be/Yo3SpV-fs4s?list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X
+
+The Frontiers Of AI And Language: Text Generation
+https://www.youtube.com/watch?v=aLcqBRvdkx4&list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X&index=8&ab_channel=GianlucaMauro
+
+AI And Language In Everyday Life: Gmail, Siri, Alexa, Google Home
+https://www.youtube.com/watch?v=S05s_49Yei0&list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X&index=9&ab_channel=GianlucaMauro
+----------------------------------------------------------------------------
+RECOMENDENTIONS
+
+From Data To Recommendations
+https://youtu.be/Cfc4n4qWHeQ?list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X
+
+Recommender Systems In Everyday Life: Netflix + Instagram
+https://youtu.be/z4aRfbZuyIM?list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X
+
+
