@@ -1,0 +1,17 @@
+Types of Data: Tabular
+https://www.youtube.com/watch?v=9vUg6Jx2CEw&ab_channel=AiCore
+
+Types of Data: Image
+https://www.youtube.com/watch?v=IY2ETuzQCg4&ab_channel=AiCore
+
+Types of Data: Text
+https://www.youtube.com/watch?v=fukt8lsudH4&ab_channel=AiCore
+
+Structured VS Unstructured Data
+https://www.youtube.com/watch?v=zBY1IpnGQCg&ab_channel=AiCore
+
+Most Common Data Types
+https://www.youtube.com/watch?v=x3Cqz3BQH50
+
+See For Yourself: Everything on Your Computer is Stored in Bytes!
+https://www.youtube.com/watch?v=60JUnjKKWS4
