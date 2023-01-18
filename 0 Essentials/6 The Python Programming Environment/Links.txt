@@ -1,0 +1,17 @@
+What Is python?
+https://www.youtube.com/watch?v=35mDxJxaBT8
+
+How (and how not) To Run python Files From VSCode
+https://www.youtube.com/watch?v=DMw-7sDbwAM
+
+Pip
+https://www.youtube.com/watch?v=FVZ0zlDIhS4
+
+Conda
+https://www.youtube.com/watch?v=tB_ifz0mqkg
+
+Exactly Cloning a Conda Environment
+https://www.youtube.com/watch?v=rJvArFX5Gy4
+
+Google Colab
+https://www.youtube.com/watch?v=GeQAZt4iEgQ
