@@ -12,3 +12,6 @@ https://www.youtube.com/watch?v=mH3Rzo0wNvU&ab_channel=AiCore
 
 Putting A Local Git Repo On GutHub Correctly
 https://www.youtube.com/watch?v=oA8-iJtv0N8&ab_channel=AiCore
+
+GitHub Actions
+https://www.youtube.com/watch?v=9abL6R2dzwc&t=4s&ab_channel=HarryBerg
