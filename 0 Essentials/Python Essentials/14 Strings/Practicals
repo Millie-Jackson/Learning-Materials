@@ -1,0 +1,18 @@
+my_string = "Hello World"
+
+print(my_string)
+print(type(my_string))
+
+my_string = "Hello \nWorld"
+
+print(my_string)
+
+my_string = "Hello \tWorld"
+
+print(type(my_string))
+
+my_string = "Hello ''World''"
+
+print(type(my_string))
+
+my_string = "Hello \"World\""
