@@ -1,0 +1,2 @@
+Lecture 2: Understanding PyTorch
+https://www.youtube.com/watch?v=UUe1hLfXz_w&t=15s

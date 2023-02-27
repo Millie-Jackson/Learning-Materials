@@ -1,0 +1,8 @@
+5 Things You Need To Know About Machine Learning
+https://www.youtube.com/watch?v=-schnj2hgt4
+
+What Is Deep Learning?
+https://www.youtube.com/watch?v=vG9pI5iFPa0
+
+What Is PyTorch?
+https://www.youtube.com/watch?v=D82oZ5cS1E4
