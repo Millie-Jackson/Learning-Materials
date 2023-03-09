@@ -1,0 +1,12 @@
+import pandas as pd
+
+df = pd.read_csv("Salaries.csv")
+
+
+
+police_count = len(df.loc[(df["JobTitle"].str.contains("POLICE DEPARTMENT"))])
+fire_count = len(df.loc[(df["JobTitle"].str.contains("FIRE DEPARTMENT"))])
+
+ratio = police_count/fire_count
+
+print("Ratio: ", police_count, ":", fire_count )
