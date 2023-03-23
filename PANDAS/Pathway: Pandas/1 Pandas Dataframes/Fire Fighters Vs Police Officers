@@ -3,10 +3,17 @@ import pandas as pd
 df = pd.read_csv("Salaries.csv")
 
 
+police_column = df.loc[(df["JobTitle"].str.contains("POLICE DEPARTMENT"))]
+police_count = len(police_column)
 
-police_count = len(df.loc[(df["JobTitle"].str.contains("POLICE DEPARTMENT"))])
-fire_count = len(df.loc[(df["JobTitle"].str.contains("FIRE DEPARTMENT"))])
+fire_column = df.loc[(df["JobTitle"].str.contains("FIRE DEPARTMENT"))]
+fire_count = len(fire_column)
 
 ratio = police_count/fire_count
 
+police_mean = police_column["BasePay"].mean()
+fire_mean = fire_column["BasePay"].mean()
+
 print("Ratio: ", police_count, ":", fire_count )
+print("Police mean: ", police_mean)
+print("Fire mean: ", fire_mean)
