@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 #pd.set_option('display.max_columns', None)
 flights_df = pd.read_csv("flights.txt", sep="|")
@@ -10,8 +11,8 @@ flights_df = pd.read_csv("flights.txt", sep="|")
 
 #print(flights_df["DISTANCE"][0:10].sum())
 
-#flights_df["DISTANCE"] = flights_df["DISTANCE"].str.strip("miles")
-#flights_df["DISTANCE"] = flights_df["DISTANCE"].astype("int64")
+flights_df["DISTANCE"] = flights_df["DISTANCE"].str.strip("miles")
+flights_df["DISTANCE"] = flights_df["DISTANCE"].astype("int64")
 #print(flights_df["DISTANCE"])
 
 #flights_df['AIRLINECODE'].describe()
@@ -43,7 +44,6 @@ flights_df['TRANSACTIONID'] = flights_df['TRANSACTIONID'].astype('int64')
 
 
 
-
 # Set index to a common column
 flights_df = flights_df.set_index("TRANSACTIONID")
 f_df_duplicates = f_df_duplicates.set_index("TRANSACTIONID")
@@ -55,17 +55,39 @@ flights_df.update(f_df_duplicates)
 flights_df.reset_index(inplace=True)
 
 
+
 # Find all unique items
-flights_df.at[0, "ORIGINSTATENAME"] = "FAKESTATE"
-states = flights_df["ORIGINSTATENAME"].unique()
-
+original_states = pd.Series(flights_df["ORIGINSTATENAME"].unique())
 # Change a specific item
-#.iat[1, 0] = "FAKESTATE"
+flights_df.iat[1, flights_df.columns.get_loc("ORIGINSTATENAME")] = "Fakestate"
+# Find all unique items
+states = pd.Series(flights_df["ORIGINSTATENAME"].unique())
+# Find the difference between the origin states
+inconsistent_categories = original_states[original_states.isin(states)]
+inconsistent_rows = flights_df[~flights_df["ORIGINSTATENAME"].astype(str).isin(inconsistent_categories.astype(str))]
+# Remove/drop the inconsistent rows
+flights_df = flights_df.drop(inconsistent_rows.index)
 
 
-print(type(flights_df))
-print(states)
-#print(states.iat[1, 1])
-#print(flights_df.iat[1, 1])
 
+# REMAPPING CATCGORIES
+flights_df["CANCELLED"].value_counts()
+flights_df["CANCELLED"].replace("0", "False", inplace=True)
+flights_df["CANCELLED"].replace("F", "False", inplace=True)
+flights_df["CANCELLED"].replace("1", "True", inplace=True)
+flights_df["CANCELLED"].replace("T", "True", inplace=True)
+
+# Using a dictionary
+flights_df["DIVERTED"].value_counts()
+mapping = {"F": "False", "0": "False", "1": "True", "T": "True"}
+flights_df["DIVERTED"] = flights_df["DIVERTED"].replace(mapping)
+
+# Using NumPy
+bins = [0, 1000, 2500, np.inf]
+labels = ["short", "medium", "long"]
+flights_df["DISTANCE_CATEGORY"] = pd.cut(flights_df["DISTANCE"], bins=bins, labels=labels)
+flights_df[["DISTANCE", "DISTANCE_CATEGORY"]]
+flights_df[flights_df["DISTANCE_CATEGORY"] == "long"]
+
+print(flights_df[flights_df["DISTANCE_CATEGORY"] == "long"])
 print("hello world")
