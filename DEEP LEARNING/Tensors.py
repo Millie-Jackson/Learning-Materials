@@ -94,8 +94,17 @@ tensor_string_list = tf.constant(["Hello World", "Hi"])
 
 np_array = np.array([1, 2, 4])
 converted_tensor = tf.convert_to_tensor(np_array)
-print(np_array)
-print(converted_tensor)
+#print(np_array)
+#print(converted_tensor)
+
+eye_tensor = tf.eye(
+    num_rows=5,
+    num_columns=3,
+    batch_shape=[2,4], # 2 by 4 matrix
+    dtype = tf.dtypes.float32,
+    name=None
+)
+print(eye_tensor)
 
 # Descriptives
 #print(tensor_three_d.shape)

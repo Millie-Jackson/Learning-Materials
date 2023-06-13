@@ -89,5 +89,35 @@ flights_df["DISTANCE_CATEGORY"] = pd.cut(flights_df["DISTANCE"], bins=bins, labe
 flights_df[["DISTANCE", "DISTANCE_CATEGORY"]]
 flights_df[flights_df["DISTANCE_CATEGORY"] == "long"]
 
-print(flights_df[flights_df["DISTANCE_CATEGORY"] == "long"])
+# Date Time
+flights_df = pd.read_csv('flights.txt', sep='|')
+## Assign date_format
+date_format = "%Y%m%d"
+# date_format = "%d-%m-%Y"
+#flights_df = pd.to_datetime(flights_df["FLIGHTDATE"], format=date_format)
+
+
+
+# Challenge
+# Modify CRSDEPTIME and CRSARRTIME to be in a datetime format. 
+# Notice that the days might tick over on to the next day... 
+# Which column can you use to help you infer whether this could be the case?
+challange_df = pd.DataFrame({
+    'CRSDEPTIME': flights_df['CRSDEPTIME'],
+    'CRSARRTIME': flights_df['CRSARRTIME'],
+    'FLIGHTDATE': flights_df['FLIGHTDATE']
+})
+challange_df = challange_df.convert_dtypes()
+# Convert FLIGHTDATE column to datetime format
+challange_df['FLIGHTDATE'] = pd.to_datetime(challange_df['FLIGHTDATE'], format=date_format)
+
+# Convert CRSDEPDATETIME to a datetime object
+challange_df["CRSDEPTIME"] = pd.to_datetime(challange_df["CRSDEPTIME"], infer_datetime_format=True, errors='coerce')
+challange_df["CRSARRTIME"] = pd.to_datetime(challange_df["CRSARRTIME"], infer_datetime_format=True, errors='coerce')
+
+# Extract CRSARRDATE from CRSARRTIME
+challange_df['CRSARRDATE'] = challange_df['CRSARRTIME'].dt.floor('D')
+#challange_df = challange_df.convert_dtypes()
+
+print(challange_df)
 print("hello world")
