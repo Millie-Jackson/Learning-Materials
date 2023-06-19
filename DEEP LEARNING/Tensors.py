@@ -1,6 +1,8 @@
 import tensorflow as tf
 import numpy as np
 
+
+# INITIALISING
 # Create Tensor
 tensor_zero_d = tf.constant(4)
 #print(tensor_zero_d)
@@ -76,7 +78,9 @@ tensor_four_d = tf.constant([
     ])
 #print(tensor_four_d)
 
-# Casting
+
+
+# CASTING
 tensor_one_d = tf.constant([2, 0, -3, 8, 90.], dtype=tf.float64)
 casted_tensor_one_d = tf.cast(tensor_one_d, dtype=tf.int16)
 casted_bool_tensor_one_d = tf.cast(tensor_one_d, dtype=tf.bool)
@@ -97,6 +101,8 @@ converted_tensor = tf.convert_to_tensor(np_array)
 #print(np_array)
 #print(converted_tensor)
 
+
+# METHODS
 eye_tensor = tf.eye(
     num_rows=5,
     num_columns=3,
@@ -104,7 +110,55 @@ eye_tensor = tf.eye(
     dtype = tf.dtypes.float32,
     name=None
 )
-print(eye_tensor)
+#print(eye_tensor)
+
+fill_tensor = tf.fill(
+    dims=[3,4],
+    value=5, # Each element takes on this value
+    name=None
+)
+#print(fill_tensor)
+
+ones_tensor = tf.ones(
+    shape=[5,3],
+    dtype=tf.dtypes.float32,
+    name=None
+)
+#print(ones_tensor)
+
+ones_like_tensor = tf.ones_like(
+    input=fill_tensor,
+    dtype=None, 
+    name=None
+)
+#print(ones_like_tensor)
+
+zeros_tensor = tf.zeros(
+    shape=[3,2],
+    dtype=tf.dtypes.float32,
+    name=None
+)
+#print(zeros_tensor)
+
+
 
 # Descriptives
 #print(tensor_three_d.shape)
+#print(tf.shape(tensor_three_d))
+
+# shape of tensor 't' is [2, 2, 3]
+t = tf.constant([[[1, 1, 1], [2, 2, 2]], [[3, 3, 3], [4, 4, 4]]])
+#print(tf.rank(t))  # 3
+
+t = tf.constant([[[1, 1, 1], [2, 2, 2]], [[3, 3, 3], [4, 4, 4]]])
+#print(tf.size(t))
+
+random_normal_tensor = tf.random.normal(
+    shape=[3,2],
+    mean=0.0,
+    stddev=1.0,
+    dtype=tf.dtypes.float32,
+    seed=None,
+    name=None
+)
+print(random_normal_tensor)

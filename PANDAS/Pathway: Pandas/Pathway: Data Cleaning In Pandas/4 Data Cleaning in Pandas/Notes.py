@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from datetime import datetime
 
 #pd.set_option('display.max_columns', None)
 flights_df = pd.read_csv("flights.txt", sep="|")
@@ -107,17 +108,106 @@ challange_df = pd.DataFrame({
     'CRSARRTIME': flights_df['CRSARRTIME'],
     'FLIGHTDATE': flights_df['FLIGHTDATE']
 })
-challange_df = challange_df.convert_dtypes()
-# Convert FLIGHTDATE column to datetime format
-challange_df['FLIGHTDATE'] = pd.to_datetime(challange_df['FLIGHTDATE'], format=date_format)
 
-# Convert CRSDEPDATETIME to a datetime object
-challange_df["CRSDEPTIME"] = pd.to_datetime(challange_df["CRSDEPTIME"], infer_datetime_format=True, errors='coerce')
-challange_df["CRSARRTIME"] = pd.to_datetime(challange_df["CRSARRTIME"], infer_datetime_format=True, errors='coerce')
-
-# Extract CRSARRDATE from CRSARRTIME
-challange_df['CRSARRDATE'] = challange_df['CRSARRTIME'].dt.floor('D')
 #challange_df = challange_df.convert_dtypes()
 
-print(challange_df)
+# Convert FLIGHTDATE column to datetime format
+#challange_df['FLIGHTDATE'] = pd.to_datetime(challange_df['FLIGHTDATE'], format=date_format)
+
+# Convert CRSDEPDATETIME to a datetime object
+#challange_df["CRSDEPTIME"] = pd.to_datetime(challange_df["CRSDEPTIME"], infer_datetime_format=True, errors='coerce')
+#challange_df["CRSARRTIME"] = pd.to_datetime(challange_df["CRSARRTIME"], infer_datetime_format=True, errors='coerce')
+
+# Extract CRSARRDATE from CRSARRTIME
+#challange_df['CRSARRDATE'] = challange_df['CRSARRTIME'].dt.floor('D')
+
+
+
+# CROSS VALIDATION
+html_table = """
+<table>
+    <tr>
+        <td><b>Name</b></td>
+        <td><b>D.O.B</b></td>
+        <td><b>Age</b></td>
+        <td><b>Deceased</b></td>
+        <td><b>U.G Loan (£)</b></td>
+        <td><b>P.G Loan (£)</b></td>
+        <td><b>Total Loan (£)</b></td>
+    </tr>
+    <tr>
+        <td>Idaline</td>
+        <td>19710427</td>
+        <td>50</td>
+        <td>F</td>
+        <td>24100</td>
+        <td>11900</td>
+        <td>36000</td>
+    </tr>
+    <tr>
+        <td>Freddie</td>
+        <td>19621227</td>
+        <td>58</td>
+        <td>F</td>
+        <td>26600</td>
+        <td>12600</td>
+        <td>39200</td>
+    </tr>
+    <tr>
+        <td>Debee</td>
+        <td>19701119</td>
+        <td>49</td>
+        <td>F</td>
+        <td>32400</td>
+        <td>97000</td>
+        <td><i>42100</i></td>
+    </tr>
+    <tr>
+        <td>Joyann</td>
+        <td>19570124</td>
+        <td><i>41</i></td>
+        <td>T</td>
+        <td>24400</td>
+        <td>11500</td>
+        <td>35900</td>
+    </tr>
+    <tr>
+        <td>Ajay</td>
+        <td>19600512</td>
+        <td><i>50</i></td>
+        <td>F</td>
+        <td>25500</td>
+        <td>18800</td>
+        <td>44300</td>
+    </tr>
+    <tr>
+        <td>Emelia</td>
+        <td>19571123</td>
+        <td><i>57</i></td>
+        <td>T</td>
+        <td>34000</td>
+        <td>17500</td>
+        <td><i>0</i></td>
+    </tr>
+            
+</table>
+"""
+
+html_df = pd.read_html(html_table, header=0)[0]
+# Before we attempt this, we'll rename the rows to something that's easier to work with
+html_df.columns = ["name", "dob", "age", "deceased", "ug_loan", "pg_loan", "total_loan"]
+## Convert 'dob' into a date object
+html_df['dob'] = pd.to_datetime(html_df['dob'], format='%Y%m%d')
+html_df['dob'] = html_df['dob'].dt.year
+# Creates a new column 'now_date' populated with the now datetime
+html_df["now_date"] = pd.Timestamp(datetime.now()).year
+## Calculate the difference between the 'dob' and 'now_date' and return the value as years
+now_date_dob_difference = (html_df['now_date'] - html_df['dob'])
+# This line changes the the timedelta objects to a floating point year, which we then convert to an in
+# Convert the total seconds to years
+#now_date_dob_difference = now_date_dob_difference / (365.25 * 24 * 60 * 60)
+
+
+
+print(html_df['dob'])
 print("hello world")
