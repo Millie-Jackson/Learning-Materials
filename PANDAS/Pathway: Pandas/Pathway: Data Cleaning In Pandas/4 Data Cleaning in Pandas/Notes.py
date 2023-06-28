@@ -205,9 +205,12 @@ html_df["now_date"] = pd.Timestamp(datetime.now()).year
 now_date_dob_difference = (html_df['now_date'] - html_df['dob'])
 # This line changes the the timedelta objects to a floating point year, which we then convert to an in
 # Convert the total seconds to years
-#now_date_dob_difference = now_date_dob_difference / (365.25 * 24 * 60 * 60)
+now_date_dob_difference = now_date_dob_difference / (365.25 * 24 * 60 * 60)
+## Return rows where 'now_date_dob_difference' is different to the dataframe's age variable
+is_diff = now_date_dob_difference != html_df["age"]
+## Filter out the relevant loan holders using boolean logic (hint: &)
+incorrect_age_rows = (now_date_dob_difference != html_df["age"]) & (html_df["deceased"] == True)
 
 
-
-print(html_df['dob'])
+print(incorrect_age_rows)
 print("hello world")
