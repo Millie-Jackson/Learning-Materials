@@ -161,4 +161,20 @@ random_normal_tensor = tf.random.normal(
     seed=None,
     name=None
 )
-print(random_normal_tensor)
+#print(random_normal_tensor)
+
+random_uniform_tensor = tf.random.uniform(
+    [5],
+    minval=0,
+    maxval=100, # Default = 1
+    dtype=tf.dtypes.int32,
+    seed=None,
+    name=None
+)
+#print(random_uniform_tensor)
+
+tf.random.set_seed(5)
+print(tf.random.uniform(shape=[3], maxval=5, dtype=tf.int32, seed=10))
+print(tf.random.uniform(shape=[3], maxval=5, dtype=tf.int32, seed=10))
+print(tf.random.uniform(shape=[3], maxval=5, dtype=tf.int32, seed=10))
+print(tf.random.uniform(shape=[3], maxval=5, dtype=tf.int32, seed=10))
