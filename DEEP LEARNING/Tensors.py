@@ -184,26 +184,44 @@ tf.random.set_seed(5)
 # INDEXING
 
 tensor_indexed = tf.constant([3, 6, 2, 4, 6, 66, 7])
-print(tensor_indexed)
-print(tensor_indexed[0:4]) # Same
-print(tensor_indexed[:4]) # Same
-print(tensor_indexed[0:]) # Assumes last element
-print(tensor_indexed[0:-1]) # Last element
-print(tensor_indexed[1:6:2]) # Go up in twos / Skip and element
+#print(tensor_indexed)
+#print(tensor_indexed[0:4]) # Same
+#print(tensor_indexed[:4]) # Same
+#print(tensor_indexed[0:]) # Assumes last element
+#print(tensor_indexed[0:-1]) # Last element
+#print(tensor_indexed[1:6:2]) # Go up in twos / Skip and element
 
-print(tensor_two_d[0:3, 0:2]) # First 2 columns of the first 3 rows
-print(tensor_two_d[0:3, :]) # All columns of the first 3 rows
-print(tensor_two_d[2, :])  # Second row
-print(tensor_two_d[2, :1])  # Second and third column of the second row
-print(tensor_two_d[:, 0])  # First element of each row
-print(tensor_two_d[1:3, 0])  # First element of first and second row
-print(tensor_two_d[..., 0]) # All the rows, first column
+#print(tensor_two_d[0:3, 0:2]) # First 2 columns of the first 3 rows
+#print(tensor_two_d[0:3, :]) # All columns of the first 3 rows
+#print(tensor_two_d[2, :])  # Second row
+#print(tensor_two_d[2, :1])  # Second and third column of the second row
+#print(tensor_two_d[:, 0])  # First element of each row
+#print(tensor_two_d[1:3, 0])  # First element of first and second row
+#print(tensor_two_d[..., 0]) # All the rows, first column
 
-print(tensor_three_d[4, 2, 3]) # Matches the shape
-print(tensor_three_d[0, :, :]) # First indexs, all rows, all columns
-print(tensor_three_d[0, 0, :]) # First indexs, first row, all columns
-print(tensor_three_d[0, :, -1]) # First indexs, all rows, last column
-print(tensor_three_d[0, :, 2]) # Same as above
-print(tensor_three_d[0:2, :, 2]) # First 2 indexs, all rows, last columns
-print(tensor_three_d[0:2, ..., 2]) # Same as above
-print(tensor_three_d[..., :, 2]) # All indexs, all rows, last columns
+#print(tensor_three_d[4, 2, 3]) # Matches the shape
+#print(tensor_three_d[0, :, :]) # First indexs, all rows, all columns
+#print(tensor_three_d[0, 0, :]) # First indexs, first row, all columns
+#print(tensor_three_d[0, :, -1]) # First indexs, all rows, last column
+#print(tensor_three_d[0, :, 2]) # Same as above
+#print(tensor_three_d[0:2, :, 2]) # First 2 indexs, all rows, last columns
+#print(tensor_three_d[0:2, ..., 2]) # Same as above
+#print(tensor_three_d[..., :, 2]) # All indexs, all rows, last columns
+
+
+
+# MATHS
+x_abs = tf.constant([-2.25, 3.25])
+#print(tf.abs(x_abs))
+#print(tf.abs(tf.constant(-0.2)))
+#print(tf.abs(tf.constant(0.2)))
+
+# Works with complex numbers too
+x_abs_complex = tf.constant([-2.25 + 4.75j])
+#print(tf.abs(x_abs_complex))
+
+#print(tf.sqrt([(-2.25)**2 + 4.75**2]))
+
+x_1 = tf.constant([5, 3, 6, 6, 4, 6], dtype=tf.int32)
+x_2 = tf.constant([7, 6, 2, 6, 7, 11], dtype=tf.int32)
+print(tf.add(x_1, x_2))
