@@ -1,6 +1,7 @@
 import tensorflow as tf # For modeling
 import pandas as pd     # For data processing
 import seaborn as sns   # For visualization
+from tensorflow.keras.layers import Normalization, Dense
 
 #  Load data set
 data = pd.read_csv("train.csv")
@@ -31,9 +32,19 @@ tensor_data = tf.random.shuffle(tensor_data)
 
 # SET THE IMPUT VALUES
 x = tensor_data[:, 3:-1] # Skip the columns we dont want
-print(x.shape)
+#print(x.shape)
 
 # SET THE OUTPUT VALUES
 y = tensor_data[:, :-1] # Skip the columns we dont want
 y = tf.expand_dims(y, axis=-1) # Expand dimensions
-print(y.shape)
+#print(y.shape)
+
+# NORMALISE THE INPUT
+normalizer = Normalization()
+normalizer.adapt(x)
+normalizer(x)
+
+# CREATE THE MODEL
+model = tf.keras.Sequential([normalizer, # Stack up the layers of the model
+                             Dense(1)])
+model.summary()
