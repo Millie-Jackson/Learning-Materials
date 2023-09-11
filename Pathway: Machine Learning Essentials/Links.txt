@@ -19,14 +19,23 @@ https://www.youtube.com/watch?v=uOmn1w4-aOo&ab_channel=AiCore
 Machine Learning Goals
 https://www.youtube.com/watch?v=ofM8LE9Zeaw&ab_channel=SteveBrunton
 
-The Different Types Of Machine Learning Explained
-https://www.youtube.com/watch?v=KyGFVrcuMZM&ab_channel=TechWithTim
+----------------------------------------------------------------------------
+LINEAR REGRESSION
+
+Intro To Models: Linear Regression
+https://www.youtube.com/watch?v=5cgFOOTz4Vk
+
+Validation And Testing
+https://www.youtube.com/watch?v=pJuckU173ls
 ----------------------------------------------------------------------------
 Machine Learning VS Deep Learning
 https://www.youtube.com/watch?v=q6kJ71tEYqM&ab_channel=IBMTechnology
 
 Supervised VS Unsupervised Learning
 https://www.youtube.com/watch?v=W01tIRP_Rqs&ab_channel=IBMTechnology
+
+The Different Types Of Machine Learning Explained
+https://www.youtube.com/watch?v=KyGFVrcuMZM&ab_channel=TechWithTim
 
 Types Of Machine Learning 1
 https://www.youtube.com/watch?v=YlGEQyEM_a8&ab_channel=SteveBrunton
