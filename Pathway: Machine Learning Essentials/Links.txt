@@ -27,6 +27,9 @@ https://www.youtube.com/watch?v=5cgFOOTz4Vk
 
 Validation And Testing
 https://www.youtube.com/watch?v=pJuckU173ls
+
+Gradient Based Optimization
+https://www.youtube.com/watch?v=zP5tEHyGGlw
 ----------------------------------------------------------------------------
 Machine Learning VS Deep Learning
 https://www.youtube.com/watch?v=q6kJ71tEYqM&ab_channel=IBMTechnology
@@ -57,7 +60,7 @@ https://www.youtube.com/watch?v=Ux3ZHUG7CXE&list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo5
 Computer Vision Applications: Today + Tomorrow
 https://youtu.be/5s9dRpmxOJY?list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X
 
-Computer Vission In Everyday Life: Apple Face ID
+Computer Vision In Everyday Life: Apple Face ID
 https://www.youtube.com/watch?v=jlAFET3bJPA&list=PL-frebrkRdBX-BD25l6Hg_T8we3Vo500X&index=6&ab_channel=GianlucaMauro
 ----------------------------------------------------------------------------
 NATUAL LANGUAGE PROCESSING
