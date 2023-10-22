@@ -3,3 +3,6 @@ https://youtu.be/VldTh41nOcE
 
 Pandas Dataframes
 https://youtu.be/k95q1dlhhso
+
+Pandas Visualisation
+youtube.com/watch?v=7IV_UZaVgJg&ab_channel=AiCore

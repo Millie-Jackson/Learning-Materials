@@ -1,0 +1,13 @@
+Bias and Variance
+https://www.youtube.com/watch?v=OQknQUB0hg8
+https://www.youtube.com/watch?v=EuBBz3bI-aA
+https://www.youtube.com/watch?v=a6YH6EbM9xA
+
+Bias and Variance: Trade-offs
+https://www.youtube.com/watch?v=YIPsfEtJppE
+
+Bias, Variance and Generalisation in Machine Learning
+https://www.youtube.com/watch?v=llrlGOoK9X0
+
+Overfitting, Underfitting and Bad Data are Ruining Your Predictive Models
+https://www.youtube.com/watch?v=0RT2Q0qwXSA

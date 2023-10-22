@@ -1,0 +1,135 @@
+
+# A function
+def function_name(parameter_1, parameter_2, parameter_3):
+    print(parameter_1) # Print 1st argument
+    print(parameter_2) # Print 2nd argument
+    print(parameter_3) # Print 3rd argument
+
+function_name(1, 2, 3)
+
+# *args
+def invite_friends(*args):
+    print(f'The 8args are treated like a tuple: {args}')
+
+    for friend in args:
+        print(f"Inviting {friend} to the party!")
+
+invite_friends("Alice", "Bob", "Claire")
+invite_friends("David", "Eve")
+
+# Example function
+def example_function(arg1, arg2, *args):
+    print(arg1) # Print 1st argument
+    print(arg2) # Print 2nd argument
+    print(args) # Print remaining arguments as a tuple
+
+example_function(1, 2, 3, 4, 5)
+
+def myFun(arg_1, *args):
+
+    print("First argument: ", arg_1)
+
+    for arg in args:
+        print("Next argument through *args: ", arg)
+
+myFun("Hello", "The", "FitnessGram", "Pacer", "Test", "is", "a", "multistage")
+
+# 1. Summing Numbers
+def sum_numbers(*numbers):
+    total = 0
+    
+    for num in numbers:
+        total += num
+
+    return total
+
+result = sum_numbers(1, 2, 3, 4, 5)
+print(result)
+
+# 2. Concatenating Strings
+def concatenate_strings(*strings):
+    result = ""
+
+    for string in strings:
+        result += string
+
+    return result
+
+concatenated = concatenate_strings("Hello,", "how", "are", "you?")
+print(concatenated)
+
+# 3. Combining Lists
+def combine_lists(*lists):
+    combined = []
+
+    for sublist in lists:
+        combined.extend(sublist)
+
+    return combined
+
+list1 = [1, 2, 3]
+list2 = [4, 5, 6]
+combined_list = combine_lists(list1, list2, [7, 8, 9], [10, 11, 12])
+print(combine_lists)
+
+# Define a function for making coffee orders
+def make_coffee(order_name, **kwargs):
+    
+    # Start with the base coffee
+    coffee = f"{order_name}:"
+
+    # Check for customizations in kwargs and apply them
+    if "order" in kwargs.keys():
+        coffee += f"{kwargs['order']},"
+    if "size" in kwargs.keys():
+        coffee += f"{kwargs['size']} size,"
+    if "milk" in kwargs.keys():
+        coffee += f"{kwargs['milk']} milk,"
+    if "syrup" in kwargs.keys():
+        coffee += f"{kwargs['syrup']} syrup,"
+    if "toppings" in kwargs.keys():
+        coffee += f"{kwargs['topped with']} toppings,"
+    
+    return coffee
+
+# Example usage
+order1 = make_coffee("Emma", order="Latte", size="large", milk="soy", syrup="vanilla", toppings="whipped cream")
+order2 = make_coffee("Gary", order="Cappuccino", syrup="caramel", toppings="chocolate flakes")
+
+print(order1)
+print(order2)
+
+def example_function(**kwargs):
+
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+example_function(name="Alice", age=30, city="Wonderland")
+
+def format_document(text, **kwargs):
+    formatted_text = text # Start with the original text
+
+    # Check for formatting options in kwargs and apply them
+    if "bold" in kwargs and kwargs['bold']:
+        formatted_text = f"<b>{formatted_text}</b>"
+    if "italic" in kwargs and kwargs['italic']:
+        formatted_text = f"<i>{formatted_text}</i>"
+    if "underline" in kwargs and kwargs['underline']:
+        formatted_text = f"<u>{formatted_text}</u>"
+
+    return formatted_text
+
+# Example usage
+document = "This is a sample document."
+format_document = format_document(document, bold=True, italic=False, underline=True)
+
+print(format_document)
+
+def complex_function(arg1, arg2, *args, kwarg1="default", **kwargs):
+    print(arg1)
+    print(arg2)
+    print(args)
+    print(kwarg1)
+    print(kwargs)
+
+complex_function(1, 2, 3, 4, 5, kwarg1="modified", a="apple", b="banana")
